@@ -1,8 +1,9 @@
 body {
   display: grid;
-  grid-template: 15vh 1fr 15vh/ 20vw 1fr 15vw;
-  grid-template-areas: "header header header"
-    "nav article ads"
+  grid-template: 15vh  1fr  15vh/ 1fr 20vw  15vw;
+  grid-template-areas: 
+    "header header header"
+    "article nav ads"
     "footer footer footer";
   gap: 1vw;
   height: 100vh;
@@ -33,7 +34,7 @@ nav,
 article,
 .ads,
 footer {
-  background-color: blanchedalmond;
+  background-color: lightcoral;
   font-size: 2vw;
   padding: 0.5em;
 }
