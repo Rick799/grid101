@@ -4,7 +4,7 @@ body {
   grid-template-areas: 
     "header header header"
     "article nav ads"
-    "footer footer footer";
+    "footer nav ads";
   gap: 1vw;
   height: 100vh;
 }
