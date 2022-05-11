@@ -1,0 +1,14 @@
+.grid {
+  display: grid;
+  grid-template-rows: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 2vw;
+}
+
+
+.grid > div {
+  font-size: 4vw;
+  padding: 0.5em;
+  background-color: lightsalmon;
+  text-align: center;
+}
