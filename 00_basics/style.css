@@ -1,13 +1,23 @@
-.container {
+.grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
-  /* grid-template-rows: 150px 150px; */
-  grid-gap: 2vw;
+  border: 1px solid gray;
+  margin-bottom: 2px;
+  gap: 0.5vw;
 }
 
-.container > div {
-  background-color: lightcoral;
-  padding: 0.5em;
+.auto-fill {
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  color:brown;
+}
+
+.auto-fit {
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));;
+  color: green;
+}
+
+.grid > div {
+  background-color: lightskyblue;
   text-align: center;
   font-size: 5vw;
+  padding: 0.5em;
 }
